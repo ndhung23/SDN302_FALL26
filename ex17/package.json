@@ -1,0 +1,32 @@
+{
+  "name": "ex17",
+  "version": "1.0.0",
+  "description": "Exercise 17: Applying MVC pattern",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "node test_api.js"
+  },
+  "keywords": [
+    "express",
+    "mongoose",
+    "mvc",
+    "controller",
+    "rest-api"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "http-errors": "^2.0.1",
+    "mongoose": "^8.9.5",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
+
