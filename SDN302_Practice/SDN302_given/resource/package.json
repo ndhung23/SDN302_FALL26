@@ -4,7 +4,11 @@
   "description": "RESTFul API Application - Given",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server"
+    "start": "nodemon server",
+    "dev": "nodemon server",
+    "import": "node scripts/importData.js",
+    "seed": "node scripts/importData.js",
+    "test": "node tests/api.test.js"
   },
   "keywords": [
     "nodejs",
